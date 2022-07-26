@@ -1,3 +1,5 @@
+Forked and premake5 script added for use in VortexEngine
+
 Dear ImGui
 =====
 
