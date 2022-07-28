@@ -29,6 +29,10 @@ ipch
 ## Commonly used CMake directories
 /build*/
 
+bin/
+bin-int/
+Makefile
+
 ## Xcode artifacts
 project.xcworkspace
 xcuserdata

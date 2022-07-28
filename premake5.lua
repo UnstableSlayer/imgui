@@ -1,11 +1,11 @@
 project "ImGui"
 	kind "StaticLib"
 	language "C++"
-    staticruntime "on"
+    	staticruntime "on"
 
 	targetdir ("bin/" .. outputDir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputDir .. "/%{prj.name}")
-
+	
 	files
 	{
 		"imconfig.h",
@@ -34,9 +34,5 @@ project "ImGui"
 		symbols "on"
 
 	filter "configurations:Release"
-		runtime "Release"
-		optimize "on"
-
-	filter "configurations:Dist"
 		runtime "Release"
 		optimize "on"
